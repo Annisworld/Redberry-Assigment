@@ -1,0 +1,234 @@
+html{
+    height: 1080px;
+    font-family: 'helvetica neue';
+}
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 0;
+    font-family: 'helvetica neue';
+}
+.prev{
+    position: absolute;
+    top: 40px;
+    left: 50px;
+    background-color: #fff;
+    padding: 13px 15px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.container{
+    align-self: flex-start;
+    padding: 40px 150px 65px 150px;
+    background-color: #F9F9F9;
+}
+.top{
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0;
+    padding-top: 0;
+    height: 35px;
+}
+.pers-info{
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'helvetica neue';
+}
+.top-p{
+    font-size: 20px;
+    font-weight: 400;
+}
+.full-name{
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 77px;
+    font-size: 16px;
+    font-weight: 500;
+    justify-content: space-between;
+}
+.full-name input{
+    width: 360px;
+    height: 48px;
+    padding-left: 16px;
+    font-size: 16px;
+    font-weight: 500px;
+    border-radius: 4px;
+    border: 1px solid #BCBCBC;
+    margin: 8px auto;
+    box-sizing: border-box;
+    outline: none;
+    background-color: white;
+}
+.full-name p{
+    font-size: 14px;
+    font-weight: 300;
+    color: #2E2E2E;
+    margin: 0;
+}
+.pic{
+    display: flex;
+    align-items: center;
+    margin: 54px auto;
+}
+.pic p{
+    font-size: 18px;
+    font-weight: 500;
+}
+.pic button{
+    background-color: #0E80BF;
+    height: 28px;
+    width: 107px;
+    border: none;
+    font-size: 14px;
+    color: white;
+    border-radius: 4px;
+    margin-left: 40px;
+    cursor: pointer;
+}
+.about{
+    font-size: 16px;
+    font-weight: 500;
+}
+.about textarea{
+    width: 800px;
+    height: 100px;
+    outline: none;
+    border-radius: 4px;
+    box-sizing: border-box;
+    border: 1px solid #BCBCBC;
+    background-color: white;
+    padding-left: 16px;
+    padding-top: 13px;
+    font-size: 16px;
+    font-weight: 500;
+    resize: none;
+    margin-bottom: 30px;
+}
+.email{
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.email label{
+    font-size: 16px;
+    font-weight: 500;
+}
+.email input{
+    width: 800px;
+    height: 48px;
+    border: 1px solid #BCBCBC;
+    outline: none;
+    border-radius: 4px;
+    font-size: 16px;
+    margin: 8px auto;
+    padding-left: 16px;
+    box-sizing: border-box;
+}
+.email p{
+    font-size: 14px;
+    font-weight: 300;
+    color: #2E2E2E;
+    margin: 0;
+}
+.mobile{
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+}
+.mobile label{
+    font-size: 16px;
+    font-weight: 500;
+}
+.mobile input{
+    width: 800px;
+    height: 48px;
+    border: 1px solid #BCBCBC;
+    outline: none;
+    border-radius: 4px;
+    font-size: 16px;
+    margin: 8px auto;
+    padding-left: 16px;
+    box-sizing: border-box;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.mobile p{
+    font-size: 14px;
+    font-weight: 300;
+    color: #2E2E2E;
+    margin: 0;
+}
+.btn{
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Helvetica Neue';
+}
+.next{
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #6B40E3;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    padding: 14px 35px 14px 35px;
+    margin-top: 150px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: 'helvetica neue';
+}
+
+.container2{
+    width: 822px;
+    padding: 48px 75px 0px 80px;
+    font-family: 'Helvetica Neue';
+}
+.container2 h1{
+    color: #F93B1D;
+    font-size: 34px;
+    text-transform: uppercase;
+}
+.container2 i{
+    color: #898989;
+    margin-right: 10px;
+    height: 16px;
+    width: 16px;
+}
+.container2 p{
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+.about-me{
+    width: 432px;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+}
+.imag{
+    position: absolute;
+    width: 246px;
+    height: 246px;
+    left: 84.2%;
+    top: 5%;
+    background: url(.jpg), #D9D9D9;
+    border-radius: 133px;
+}
+.star{
+    position: absolute;
+    bottom: 4%;
+    right: 36.6%;
+    height: 46px;
+    width: 46px;
+}
